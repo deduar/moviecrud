@@ -1,0 +1,25 @@
+<h2>Crear Película</h2>
+<div>
+    <div class="form-group">
+        <label for="name">Nombre</label>
+        <input [(ngModel)]="movie.name" type="text" class="form-control" id="name" placeholder="Ingresar Nombre">
+    </div>
+    <div class="form-group">
+        <label for="description">Descripcion</label>
+        <textarea [(ngModel)]="movie.description" class="form-control" id="description" placeholder="Ingresar Descripción"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="gender">Género</label>
+        <input [(ngModel)]="movie.gender" type="text" class="form-control" id="gender" placeholder="Ingresar Género">
+    </div>
+    <div class="form-group">
+        <label for="duration">Duración</label>
+        <input [(ngModel)]="movie.duration" type="text" class="form-control" id="duration" placeholder="Ingresar Duración">
+    </div>
+    <div class="form-group">
+        <label for="year">Año</label>
+        <input [(ngModel)]="movie.year" type="text" class="form-control" id="year" placeholder="Ingresar Año">
+    </div>
+
+    <button (click)="saveMovie()" class="btn btn-primary btn-block">Guardar</button>
+</div>
