@@ -8,15 +8,27 @@ graph TD;
 
 ```
 gitGraph
-       123456
-       123458
-       branch develop
-       1234569
-       2345679
-       2345789
+       commit id: "1"
+       commit id: "2"
+       branch nice_feature
+       checkout nice_feature
+       commit id: "3"
        checkout main
-       3456789
-       4567899
+       commit id: "4"
+       checkout nice_feature
+       branch very_nice_feature
+       checkout very_nice_feature
+       commit id: "5"
+       checkout main
+       commit id: "6"
+       checkout nice_feature
+       commit id: "7"
+       checkout main
+       merge nice_feature id: "customID" tag: "customTag" type: REVERSE
+       checkout very_nice_feature
+       commit id: "8"
+       checkout main
+       commit id: "9"
 ```
 
 # Moviescrud
