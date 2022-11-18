@@ -1,6 +1,5 @@
 ```mermaid
 graph TD;
-direction LR;
     A-->B;
     A-->C;
     B-->D;
