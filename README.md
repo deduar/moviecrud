@@ -6,6 +6,7 @@ graph TD;
     C-->D;
 ```
 
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
 gitGraph
        commit id: "1"
        commit id: "2"
