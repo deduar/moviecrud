@@ -6,7 +6,6 @@ graph TD;
     C-->D;
 ```
 
-```
 gitGraph
        commit id: "1"
        commit id: "2"
@@ -29,7 +28,7 @@ gitGraph
        commit id: "8"
        checkout main
        commit id: "9"
-```
+
 
 # Moviescrud
 
