@@ -3,24 +3,7 @@ graph TD;
     A-->B;
     A-->C;
     B-->D;
-    C-->D;
-    
-flowchart TD
-
-subgraph Z[" "]
-direction LR
-  A --> B
-  B --> C
-end
-
-subgraph ZA[" "]
-direction RL
-    D-->E
-    E-->F
-end
-
-Z --> ZA
-    
+    C-->D;    
 ```
 
 # Moviescrud
