@@ -6,7 +6,7 @@ graph TD;
     C-->D;
 ```
 
-
+```
 gitGraph
        123456
        123458
@@ -17,6 +17,7 @@ gitGraph
        checkout main
        3456789
        4567899
+```
 
 # Moviescrud
 
