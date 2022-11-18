@@ -5,7 +5,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
+```
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
 gitGraph
        commit id: "1"
@@ -29,7 +29,7 @@ gitGraph
        commit id: "8"
        checkout main
        commit id: "9"
-
+```
 
 # Moviescrud
 
