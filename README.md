@@ -6,7 +6,7 @@ graph TD;
     C-->D;
 ```
 ```
-sequenceDiagram
+graph TD;
     Alice->>John: Hello John, how are you?
     activate John
     John-->>Alice: Great!
