@@ -6,29 +6,11 @@ graph TD;
     C-->D;
 ```
 ```
-%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
-gitGraph
-       commit id: "1"
-       commit id: "2"
-       branch nice_feature
-       checkout nice_feature
-       commit id: "3"
-       checkout main
-       commit id: "4"
-       checkout nice_feature
-       branch very_nice_feature
-       checkout very_nice_feature
-       commit id: "5"
-       checkout main
-       commit id: "6"
-       checkout nice_feature
-       commit id: "7"
-       checkout main
-       merge nice_feature id: "customID" tag: "customTag" type: REVERSE
-       checkout very_nice_feature
-       commit id: "8"
-       checkout main
-       commit id: "9"
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    activate John
+    John-->>Alice: Great!
+    deactivate John
 ```
 
 # Moviescrud
