@@ -6,7 +6,7 @@ graph TD;
     C-->D;
 ```
 
-```
+
 gitGraph
        commit
        commit
@@ -17,7 +17,6 @@ gitGraph
        checkout main
        commit
        commit
-```
 
 # Moviescrud
 
