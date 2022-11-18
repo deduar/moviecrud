@@ -6,7 +6,7 @@ graph TD;
     C-->D;
 ```
 ```mermaid
-gitGraph;
+graph gitGraph;
        commit id: "1";
        commit id: "2";
        branch nice_feature;
