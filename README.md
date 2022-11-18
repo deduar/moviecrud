@@ -5,7 +5,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
-```
+```mermaid
 graph TD;
     Alice->>John: Hello John, how are you?;
     activate John;
