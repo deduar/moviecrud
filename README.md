@@ -8,15 +8,15 @@ graph TD;
 
 
 gitGraph
-       commit
-       commit
+       123456
+       123458
        branch develop
-       commit
-       commit
-       commit
+       1234569
+       2345679
+       2345789
        checkout main
-       commit
-       commit
+       3456789
+       4567899
 
 # Moviescrud
 
